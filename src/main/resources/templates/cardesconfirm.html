@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">
+    The tv show's name was [[${cardes.name}]].<br />
+    It is a [[${cardes.type}]].<br />
+    It could be best described as
+    [[${cardes.description}]].
+</p>
+</body>
+</html>
